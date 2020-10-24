@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Strawberry",
+        "group": "Fruits and berries",
+        "purines": [{
+            "srcId": 1,
+            "adenine": 0.5,
+            "guanine": 1.2,
+            "hypoxanthine": 0.5,
+            "xanthine": 0.0,
+            "total": 2.1,
+            "uricAcid": 2.4
+        }]
+    }
+]
