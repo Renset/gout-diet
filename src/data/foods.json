@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Strawberry",
-        "group": "Fruits and berries",
+        "type": "Fruits and berries",
         "purines": [{
             "srcId": 1,
             "adenine": 0.5,
@@ -12,5 +12,291 @@
             "total": 2.1,
             "uricAcid": 2.4
         }]
-    }
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "type": "Fruits and berries",
+        "purines": [{
+            "srcId": 1,
+            "adenine": 1.2,
+            "guanine": 1.7,
+            "hypoxanthine": 0.1,
+            "xanthine": 0.0,
+            "total": 3.0,
+            "uricAcid": 3.5
+        }]
+    },
+    {
+    "type": "Meat",
+    "name": "Beef Brisket",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 7.6,
+        "hypoxanthine": 49,
+        "xanthine": 9.1,
+        "total": 79.2,
+        "uricAcid": 95.8
+      }
+    ],
+    "id": 3
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Clod",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 18.9,
+        "guanine": 9.1,
+        "hypoxanthine": 65.3,
+        "xanthine": 10.6,
+        "total": 104,
+        "uricAcid": 126.1
+      }
+    ],
+    "id": 4
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Heart",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 45.9,
+        "guanine": 27.2,
+        "hypoxanthine": 96.6,
+        "xanthine": 15.2,
+        "total": 185,
+        "uricAcid": 223.6
+      }
+    ],
+    "id": 5
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Kidney",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 67.6,
+        "guanine": 63.5,
+        "hypoxanthine": 8.2,
+        "xanthine": 35,
+        "total": 174.2,
+        "uricAcid": 203.4
+      }
+    ],
+    "id": 6
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Large intestine",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 27.1,
+        "guanine": 38.6,
+        "hypoxanthine": 15.2,
+        "xanthine": 7.3,
+        "total": 88,
+        "uricAcid": 103.3
+      }
+    ],
+    "id": 7
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Liver",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 86.5,
+        "guanine": 83.1,
+        "hypoxanthine": null,
+        "xanthine": 50.2,
+        "total": 219.8,
+        "uricAcid": 255.5
+      }
+    ],
+    "id": 8
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Neck",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 18.9,
+        "guanine": 13.6,
+        "hypoxanthine": 54.4,
+        "xanthine": 13.7,
+        "total": 100.6,
+        "uricAcid": 121
+      }
+    ],
+    "id": 9
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Ribloin",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 7.6,
+        "hypoxanthine": 39.5,
+        "xanthine": 13.7,
+        "total": 74.2,
+        "uricAcid": 89.1
+      }
+    ],
+    "id": 10
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Shin",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.6,
+        "guanine": 13.6,
+        "hypoxanthine": 58.5,
+        "xanthine": 16.7,
+        "total": 106.4,
+        "uricAcid": 127.8
+      }
+    ],
+    "id": 11
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Shoulder ribs",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 14.9,
+        "guanine": 9.1,
+        "hypoxanthine": 36.7,
+        "xanthine": 16.7,
+        "total": 77.4,
+        "uricAcid": 92.5
+      }
+    ],
+    "id": 12
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Shoulder sirloin",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 16.2,
+        "guanine": 9.1,
+        "hypoxanthine": 55.8,
+        "xanthine": 9.1,
+        "total": 90.2,
+        "uricAcid": 109.3
+      }
+    ],
+    "id": 13
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Stomach",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 28.4,
+        "guanine": 21.2,
+        "hypoxanthine": 17.7,
+        "xanthine": 16.7,
+        "total": 83.9,
+        "uricAcid": 99.2
+      }
+    ],
+    "id": 14
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Tenderloin",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 16.2,
+        "guanine": 9.1,
+        "hypoxanthine": 64,
+        "xanthine": 9.1,
+        "total": 98.4,
+        "uricAcid": 119.4
+      }
+    ],
+    "id": 15
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Tongue",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 24.3,
+        "guanine": 12.1,
+        "hypoxanthine": 44.9,
+        "xanthine": 9.1,
+        "total": 90.4,
+        "uricAcid": 109.3
+      }
+    ],
+    "id": 16
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Topside",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 18.9,
+        "guanine": 10.6,
+        "hypoxanthine": 72.1,
+        "xanthine": 9.1,
+        "total": 110.8,
+        "uricAcid": 134.5
+      }
+    ],
+    "id": 17
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Topside (raw)",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 20.3,
+        "guanine": 15.1,
+        "hypoxanthine": 77.3,
+        "xanthine": 22.5,
+        "total": 135.2,
+        "uricAcid": 162.4
+      }
+    ],
+    "id": 18
+  },
+  {
+    "type": "Meat",
+    "name": "Beef Topside (heated)",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 27.1,
+        "guanine": 15.8,
+        "hypoxanthine": 87.2,
+        "xanthine": 13.3,
+        "total": 143.5,
+        "uricAcid": 173.8
+      }
+    ],
+    "id": 19
+  }
 ]

@@ -15,6 +15,7 @@
                 :items="foodsPrepared"
                 :items-per-page="50"
                 :search="search"
+                group-by="type"
                 class="elevation-1"
             >
             </v-data-table>
@@ -39,12 +40,16 @@ export default {
                     sortable: false,
                     value: "name",
                 },
+                {
+                    text: "Type",
+                    value: "type",
+                },
                 { text: "Adenine", value: "adenine" },
                 { text: "Guanine", value: "guanine" },
                 { text: "Hypoxanthine", value: "hypoxanthine" },
                 { text: "Xanthine", value: "xanthine" },
                 { text: "Total", value: "total" },
-                { text: "UricAcid", value: "uricAcid" },
+                { text: "Uric Acid", value: "uricAcid" },
             ],
         };
     },
@@ -62,6 +67,7 @@ export default {
                 foodPrepared.xanthine = food.purines[0].xanthine;
                 foodPrepared.total = food.purines[0].total;
                 foodPrepared.uricAcid = food.purines[0].uricAcid;
+                foodPrepared.type = food.type;
                 this.foodsPrepared.push(foodPrepared);
             });
         },
