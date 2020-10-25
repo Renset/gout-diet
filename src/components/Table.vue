@@ -10,7 +10,24 @@
                     hide-details
                 ></v-text-field>
             </v-card-title>
-            <v-card-text class="text-right">(mg in 100g)</v-card-text>
+            <v-card-text class="m-t">
+                Uric acid levels (mg/100g):
+                <v-chip class="ma-1" :color="getColor(0)" dark small>
+                    Very low: 0&mdash;50
+                </v-chip>
+                <v-chip class="ma-1" :color="getColor(51)" dark small>
+                    Low: 50&mdash;100
+                </v-chip>
+                <v-chip class="ma-1" :color="getColor(101)" dark small>
+                    Moderate: 100&mdash;200
+                </v-chip>
+                <v-chip class="ma-1" :color="getColor(201)" dark small>
+                    High: 200&mdash;300
+                </v-chip>
+                <v-chip class="ma-1" :color="getColor(301)" dark small>
+                    Very High: 300+
+                </v-chip>
+            </v-card-text>
             <v-data-table
                 :headers="headers"
                 :items="foodsPrepared"
