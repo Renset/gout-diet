@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Strawberry",
+    "icon": "🍓",
     "type": "Fruits and berries",
     "purines": [
       {
@@ -23,6 +24,7 @@
   {
     "id": 2,
     "name": "Banana",
+    "icon": "🍌",
     "type": "Fruits and berries",
     "purines": [
       {
@@ -43,6 +45,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Brisket",
     "purines": [
       {
@@ -59,6 +62,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Clod",
     "purines": [
       {
@@ -75,6 +79,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Heart",
     "purines": [
       {
@@ -91,6 +96,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Kidney",
     "purines": [
       {
@@ -107,6 +113,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Large intestine",
     "purines": [
       {
@@ -123,6 +130,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Liver",
     "purines": [
       {
@@ -139,6 +147,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Neck",
     "purines": [
       {
@@ -155,6 +164,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Ribloin",
     "purines": [
       {
@@ -171,6 +181,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Shin",
     "purines": [
       {
@@ -187,6 +198,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Shoulder ribs",
     "purines": [
       {
@@ -203,6 +215,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Shoulder sirloin",
     "purines": [
       {
@@ -219,6 +232,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Stomach",
     "purines": [
       {
@@ -235,6 +249,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Tenderloin",
     "purines": [
       {
@@ -251,6 +266,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Tongue",
     "purines": [
       {
@@ -267,6 +283,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Topside",
     "purines": [
       {
@@ -283,6 +300,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Topside (raw)",
     "purines": [
       {
@@ -299,6 +317,7 @@
   },
   {
     "type": "Meat",
+    "icon": "🐄",
     "name": "Beef Topside (heated)",
     "purines": [
       {
@@ -312,5 +331,413 @@
       }
     ],
     "id": 19
+  },
+  {
+    "type": "Meat",
+    "icon": "🐔",
+    "name": "Chicken Breast",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 20.5,
+        "guanine": 21.4,
+        "hypoxanthine": 98.4,
+        "xanthine": 1,
+        "total": 141.2,
+        "uricAcid": 171.8
+      }
+    ],
+    "id": 45
+  },
+  {
+    "type": "Meat",
+    "icon": "🐔",
+    "name": "Chicken Buttocks",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17,
+        "guanine": 21.9,
+        "hypoxanthine": 23.2,
+        "xanthine": 6.7,
+        "total": 68.8,
+        "uricAcid": 81.6
+      }
+    ],
+    "id": 46
+  },
+  {
+    "type": "Meat",
+    "icon": "🐔",
+    "name": "Chicken Gizzard",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 45.9,
+        "guanine": 51.4,
+        "hypoxanthine": 39.5,
+        "xanthine": 6.1,
+        "total": 142.9,
+        "uricAcid": 169.8
+      }
+    ],
+    "id": 47
+  },
+  {
+    "type": "Meat",
+    "icon": "🐔",
+    "name": "Chicken Heart",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 31.3,
+        "guanine": 36.1,
+        "hypoxanthine": 52.6,
+        "xanthine": 5.4,
+        "total": 125.4,
+        "uricAcid": 150
+      }
+    ],
+    "id": 48
+  },
+  {
+    "type": "Meat",
+    "icon": "🐔",
+    "name": "Chicken Leg",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 27,
+        "guanine": 19.6,
+        "hypoxanthine": 76.2,
+        "xanthine": 0,
+        "total": 122.9,
+        "uricAcid": 149.6
+      }
+    ],
+    "id": 49
+  },
+  {
+    "type": "Meat",
+    "icon": "🐔",
+    "name": "Chicken Liver",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 121.6,
+        "guanine": 151.1,
+        "hypoxanthine": "",
+        "xanthine": 39.5,
+        "total": 312.2,
+        "uricAcid": 363.1
+      }
+    ],
+    "id": 50
+  },
+  {
+    "type": "Meat",
+    "icon": "🐔",
+    "name": "Chicken Skin",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 48.6,
+        "guanine": 43.8,
+        "hypoxanthine": 27.2,
+        "xanthine": "",
+        "total": 119.7,
+        "uricAcid": 142.9
+      }
+    ],
+    "id": 51
+  },
+  {
+    "type": "Meat",
+    "icon": "🐔",
+    "name": "Chicken White meat",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 27,
+        "guanine": 16.6,
+        "hypoxanthine": 110.2,
+        "xanthine": 0,
+        "total": 153.9,
+        "uricAcid": 188.3
+      }
+    ],
+    "id": 52
+  },
+  {
+    "type": "Meat",
+    "icon": "🐔",
+    "name": "Chicken Wing",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 28.4,
+        "guanine": 16.6,
+        "hypoxanthine": 92.5,
+        "xanthine": 0,
+        "total": 137.5,
+        "uricAcid": 168.1
+      }
+    ],
+    "id": 53
+  },
+  {
+    "type": "Meat",
+    "icon": "🐏",
+    "name": "Mutton",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.6,
+        "guanine": 10.6,
+        "hypoxanthine": 68.1,
+        "xanthine": "",
+        "total": 96.2,
+        "uricAcid": 117.7
+      }
+    ],
+    "id": 55
+  },
+  {
+    "type": "Meat",
+    "icon": "🐏",
+    "name": "Mutton Rum",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.6,
+        "guanine": 10.6,
+        "hypoxanthine": 65.3,
+        "xanthine": "",
+        "total": 93.5,
+        "uricAcid": 114.3
+      }
+    ],
+    "id": 56
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Heart",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 39.2,
+        "guanine": 24.2,
+        "hypoxanthine": 55.8,
+        "xanthine": 0,
+        "total": 119.2,
+        "uricAcid": 144.6
+      }
+    ],
+    "id": 57
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Kidney",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 64.8,
+        "guanine": 77.1,
+        "hypoxanthine": 53.1,
+        "xanthine": 0,
+        "total": 195,
+        "uricAcid": 232
+      }
+    ],
+    "id": 58
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Liver",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 81.1,
+        "guanine": 102.7,
+        "hypoxanthine": 34,
+        "xanthine": 66.9,
+        "total": 284.8,
+        "uricAcid": 331.2
+      }
+    ],
+    "id": 59
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Neck",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 14.9,
+        "guanine": 12.1,
+        "hypoxanthine": 43.6,
+        "xanthine": 0,
+        "total": 70.5,
+        "uricAcid": 85.7
+      }
+    ],
+    "id": 60
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Ribs",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 10.6,
+        "hypoxanthine": 51.7,
+        "xanthine": 0,
+        "total": 75.8,
+        "uricAcid": 92.5
+      }
+    ],
+    "id": 61
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Rump",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 20.3,
+        "guanine": 15.1,
+        "hypoxanthine": 77.6,
+        "xanthine": 0,
+        "total": 113,
+        "uricAcid": 137.8
+      }
+    ],
+    "id": 62
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Shoulder",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 16.2,
+        "guanine": 12.1,
+        "hypoxanthine": 53.1,
+        "xanthine": 0,
+        "total": 81.4,
+        "uricAcid": 99.2
+      }
+    ],
+    "id": 63
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Shoulder ribs",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 16.2,
+        "guanine": 10.6,
+        "hypoxanthine": 64,
+        "xanthine": 0,
+        "total": 90.8,
+        "uricAcid": 110.9
+      }
+    ],
+    "id": 64
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Shoulder sirloin",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 18.9,
+        "guanine": 13.6,
+        "hypoxanthine": 62.6,
+        "xanthine": 0,
+        "total": 95.1,
+        "uricAcid": 116
+      }
+    ],
+    "id": 65
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Shoulder knee",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 21.6,
+        "guanine": 16.6,
+        "hypoxanthine": 69.4,
+        "xanthine": 0,
+        "total": 107.6,
+        "uricAcid": 131.1
+      }
+    ],
+    "id": 66
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Sirloin",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.6,
+        "guanine": 12.1,
+        "hypoxanthine": 61.2,
+        "xanthine": 0,
+        "total": 90.9,
+        "uricAcid": 110.9
+      }
+    ],
+    "id": 67
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Tenderloin",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 23,
+        "guanine": 15.1,
+        "hypoxanthine": 81.7,
+        "xanthine": 0,
+        "total": 119.7,
+        "uricAcid": 146.2
+      }
+    ],
+    "id": 68
+  },
+  {
+    "type": "Meat",
+    "icon": "🐖",
+    "name": "Pork Tongue",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 24.3,
+        "guanine": 21.2,
+        "hypoxanthine": 58.5,
+        "xanthine": 0,
+        "total": 104,
+        "uricAcid": 126.1
+      }
+    ],
+    "id": 69
   }
 ]
