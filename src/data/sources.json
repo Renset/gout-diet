@@ -1,6 +1,15 @@
-[{
+[
+  {
     "id": 1,
     "name": "Total Purine and Purine Base Content of Common Foodstuffs for Facilitating Nutritional Therapy for Gout and Hyperuricemia",
-    "authors": "Kiyoko Kaneko, Yasuo Aoyagi, Tomoko Fukuuchi, Katsunori Inazawa, Noriko Yamaoka",
-    "doi": "https://doi.org/10.1248/bpb.b13-00967"
-}]
+    "author": "Kiyoko Kaneko, Yasuo Aoyagi, Tomoko Fukuuchi, Katsunori Inazawa, Noriko Yamaoka",
+    "doi": "https://doi.org/10.1248/bpb.b13-00967",
+    "link": "https://www.jstage.jst.go.jp/article/bpb/37/5/37_b13-00967/_article"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Barbara Hendel",
+    "author": "Dr. Barbara Hendel",
+    "link": "https://dr-barbara-hendel.com/en/nutrition/tables/purine-content-table/"
+  }
+]

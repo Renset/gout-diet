@@ -1,33 +1,47 @@
 [
-    {
-        "id": 1,
-        "name": "Strawberry",
-        "type": "Fruits and berries",
-        "purines": [{
-            "srcId": 1,
-            "adenine": 0.5,
-            "guanine": 1.2,
-            "hypoxanthine": 0.5,
-            "xanthine": 0.0,
-            "total": 2.1,
-            "uricAcid": 2.4
-        }]
-    },
-    {
-        "id": 2,
-        "name": "Banana",
-        "type": "Fruits and berries",
-        "purines": [{
-            "srcId": 1,
-            "adenine": 1.2,
-            "guanine": 1.7,
-            "hypoxanthine": 0.1,
-            "xanthine": 0.0,
-            "total": 3.0,
-            "uricAcid": 3.5
-        }]
-    },
-    {
+  {
+    "id": 1,
+    "name": "Strawberry",
+    "type": "Fruits and berries",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 0.5,
+        "guanine": 1.2,
+        "hypoxanthine": 0.5,
+        "xanthine": 0.0,
+        "total": 2.1,
+        "uricAcid": 2.4
+      },
+      {
+        "srcId": 2,
+        "total": 11,
+        "uricAcid": 25
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "type": "Fruits and berries",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 1.2,
+        "guanine": 1.7,
+        "hypoxanthine": 0.1,
+        "xanthine": 0.0,
+        "total": 3.0,
+        "uricAcid": 3.5
+      },
+      {
+        "srcId": 2,
+        "total": 11,
+        "uricAcid": 25
+      }
+    ]
+  },
+  {
     "type": "Meat",
     "name": "Beef Brisket",
     "purines": [
