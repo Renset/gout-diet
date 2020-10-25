@@ -19,6 +19,14 @@
                 group-by="type"
                 class="elevation-1"
             >
+                <template v-slot:item.uricAcid="{ item }">
+                    <v-chip :color="getColor(item.uricAcid)" dark>
+                        {{ item.uricAcid }}
+                    </v-chip>
+                </template>
+                <template v-slot:item.icon="{ item }">
+                    <span style="font-size: 1.8rem">{{ item.icon }}</span>
+                </template>
             </v-data-table>
         </v-card>
     </v-container>
@@ -36,9 +44,13 @@ export default {
             search: "",
             headers: [
                 {
+                    text: "Icon",
+                    value: "icon",
+                    sortable: false,
+                },
+                {
                     text: "Food",
                     align: "start",
-                    sortable: false,
                     value: "name",
                 },
                 {
@@ -49,7 +61,7 @@ export default {
                 { text: "Guanine", value: "guanine" },
                 { text: "Hypoxanthine", value: "hypoxanthine" },
                 { text: "Xanthine", value: "xanthine" },
-                { text: "Total", value: "total" },
+                { text: "Total Purines", value: "total" },
                 { text: "Uric Acid", value: "uricAcid" },
             ],
         };
@@ -69,8 +81,16 @@ export default {
                 foodPrepared.total = food.purines[0].total;
                 foodPrepared.uricAcid = food.purines[0].uricAcid;
                 foodPrepared.type = food.type;
+                foodPrepared.icon = food.icon;
                 this.foodsPrepared.push(foodPrepared);
             });
+        },
+        getColor(uricAcid) {
+            if (uricAcid > 300) return "black";
+            else if (uricAcid > 200) return "#760000";
+            else if (uricAcid > 100) return "red";
+            else if (uricAcid > 50) return "orange";
+            else return "green";
         },
     },
 };
