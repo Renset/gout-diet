@@ -10,6 +10,7 @@
                     hide-details
                 ></v-text-field>
             </v-card-title>
+            <v-card-text class="text-right">(mg in 100g)</v-card-text>
             <v-data-table
                 :headers="headers"
                 :items="foodsPrepared"
