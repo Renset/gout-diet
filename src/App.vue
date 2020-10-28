@@ -20,6 +20,7 @@
         <v-main>
             <Introduction />
             <Table />
+            <Footer />
         </v-main>
     </v-app>
 </template>
@@ -27,6 +28,7 @@
 <script>
 import Introduction from "./components/Introduction";
 import Table from "./components/Table";
+import Footer from "./components/Footer";
 
 export default {
     name: "App",
@@ -34,6 +36,7 @@ export default {
     components: {
         Introduction,
         Table,
+        Footer
     },
 
     data: () => ({}),

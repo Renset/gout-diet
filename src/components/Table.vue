@@ -31,7 +31,7 @@
             <v-data-table
                 :headers="headers"
                 :items="foodsPrepared"
-                :items-per-page="50"
+                :items-per-page="200"
                 :search="search"
                 group-by="type"
                 class="elevation-1"
