@@ -1,10 +1,10 @@
 <template>
     <v-container>
-        People with gout or hyperuricemia should control the level of uric acid
+        People with gout and hyperuricemia should control the level of purines
         in the food to prevent gout attacks and other complications. Below you
-        will find uric acid levels for different kinds of food. Even for people
-        without gout and hyperuricemia, the daily recommended limit is 400 mg of
-        purines.
+        will find purine and uric acid levels for different kinds of food. Even
+        for people without gout and hyperuricemia, the daily recommended limit
+        is 400 mg of purines.
     </v-container>
 </template>
 
