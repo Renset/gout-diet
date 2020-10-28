@@ -739,5 +739,634 @@
       }
     ],
     "id": 69
+  },
+  {
+    "name": "Asparagus Upper part",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 20.7,
+        "guanine": 30.5,
+        "hypoxanthine": 3.8,
+        "xanthine": 0.3,
+        "total": 55.3,
+        "uricAcid": 64.7
+      }
+    ],
+    "id": 70
+  },
+  {
+    "name": "Asparagus Lower part",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 3.6,
+        "guanine": 4.8,
+        "hypoxanthine": 1.7,
+        "xanthine": 0.1,
+        "total": 10.2,
+        "uricAcid": 12
+      }
+    ],
+    "id": 71
+  },
+  {
+    "name": "Avocado",
+    "type": "Vegetables",
+    "icon": "🥑",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 10.6,
+        "guanine": 7.5,
+        "hypoxanthine": 0.3,
+        "xanthine": 0,
+        "total": 18.4,
+        "uricAcid": 21.8
+      }
+    ],
+    "id": 72
+  },
+  {
+    "name": "Balsam pear (goya)",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 3.5,
+        "guanine": 4.3,
+        "hypoxanthine": 1.1,
+        "xanthine": 1,
+        "total": 9.9,
+        "uricAcid": 11.6
+      }
+    ],
+    "id": 73
+  },
+  {
+    "name": "Bamboo shoot Upper part",
+    "type": "Vegetables",
+    "icon": "🎍",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 24.8,
+        "guanine": 35.2,
+        "hypoxanthine": 2.8,
+        "xanthine": 0.6,
+        "total": 63.3,
+        "uricAcid": 74
+      }
+    ],
+    "id": 74
+  },
+  {
+    "name": "Bamboo shoot Lower part",
+    "type": "Vegetables",
+    "icon": "🎍",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 12.8,
+        "guanine": 17,
+        "hypoxanthine": 0.7,
+        "xanthine": 0.4,
+        "total": 30.8,
+        "uricAcid": 36.1
+      }
+    ],
+    "id": 75
+  },
+  {
+    "name": "Bean sprouts",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 14.1,
+        "guanine": 14.2,
+        "hypoxanthine": 3.2,
+        "xanthine": 3.5,
+        "total": 35,
+        "uricAcid": 41.2
+      }
+    ],
+    "id": 76
+  },
+  {
+    "name": "Broccoli",
+    "type": "Vegetables",
+    "icon": "🥦",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 25.1,
+        "guanine": 33.9,
+        "hypoxanthine": 5.7,
+        "xanthine": 5.3,
+        "total": 70,
+        "uricAcid": 81.8
+      }
+    ],
+    "id": 77
+  },
+  {
+    "name": "Broccoli sprout",
+    "type": "Vegetables",
+    "icon": "🥦",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 59.5,
+        "guanine": 57.2,
+        "hypoxanthine": 8.1,
+        "xanthine": 4.8,
+        "total": 129.6,
+        "uricAcid": 153
+      }
+    ],
+    "id": 78
+  },
+  {
+    "name": "Cabbage",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 1.3,
+        "guanine": 1.7,
+        "hypoxanthine": 0.2,
+        "xanthine": 0,
+        "total": 3.2,
+        "uricAcid": 3.8
+      }
+    ],
+    "id": 79
+  },
+  {
+    "name": "Carrot",
+    "type": "Vegetables",
+    "icon": "🥕",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 0.7,
+        "guanine": 1.4,
+        "hypoxanthine": 0,
+        "xanthine": 0,
+        "total": 2.2,
+        "uricAcid": 2.5
+      }
+    ],
+    "id": 80
+  },
+  {
+    "name": "Cauliflower",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 27,
+        "guanine": 30.2,
+        "hypoxanthine": "ND",
+        "xanthine": 0,
+        "total": 57.2,
+        "uricAcid": 67.2
+      }
+    ],
+    "id": 81
+  },
+  {
+    "name": "Cherry tomato",
+    "type": "Vegetables",
+    "icon": "🍅",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 1.6,
+        "guanine": 1.5,
+        "hypoxanthine": 0,
+        "xanthine": 0,
+        "total": 3.1,
+        "uricAcid": 3.7
+      }
+    ],
+    "id": 82
+  },
+  {
+    "name": "Chinese cabbage",
+    "type": "Vegetables",
+    "icon": "🥬",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 2.6,
+        "guanine": 2.9,
+        "hypoxanthine": 1.2,
+        "xanthine": 0.3,
+        "total": 7,
+        "uricAcid": 8.2
+      }
+    ],
+    "id": 83
+  },
+  {
+    "name": "Corn",
+    "type": "Vegetables",
+    "icon": "🌽",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 4.7,
+        "guanine": 6.9,
+        "hypoxanthine": 0.1,
+        "xanthine": 0.1,
+        "total": 11.7,
+        "uricAcid": 13.7
+      }
+    ],
+    "id": 84
+  },
+  {
+    "name": "Cucumber",
+    "type": "Vegetables",
+    "icon": "🥒",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 4.2,
+        "guanine": 5,
+        "hypoxanthine": 0.1,
+        "xanthine": 0.1,
+        "total": 9.4,
+        "uricAcid": 11.1
+      }
+    ],
+    "id": 85
+  },
+  {
+    "name": "Eggplant",
+    "type": "Vegetables",
+    "icon": "🍆",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 11,
+        "guanine": 31.6,
+        "hypoxanthine": 6.6,
+        "xanthine": 1.6,
+        "total": 50.7,
+        "uricAcid": 58.7
+      }
+    ],
+    "id": 86
+  },
+  {
+    "name": "Garlic",
+    "type": "Vegetables",
+    "icon": "🧄",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 6,
+        "guanine": 6.9,
+        "hypoxanthine": 3.4,
+        "xanthine": 0.7,
+        "total": 17,
+        "uricAcid": 20.1
+      }
+    ],
+    "id": 87
+  },
+  {
+    "name": "Garlic chives (nira)",
+    "type": "Vegetables",
+    "icon": "🧄",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 9.4,
+        "guanine": 8.5,
+        "hypoxanthine": 1.4,
+        "xanthine": 0.1,
+        "total": 19.4,
+        "uricAcid": 23
+      }
+    ],
+    "id": 88
+  },
+  {
+    "name": "Ginger",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 0.4,
+        "guanine": 1.4,
+        "hypoxanthine": 0,
+        "xanthine": 0.5,
+        "total": 2.3,
+        "uricAcid": 2.5
+      }
+    ],
+    "id": 89
+  },
+  {
+    "name": "Green pepper",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 15.9,
+        "guanine": 35.5,
+        "hypoxanthine": 7,
+        "xanthine": 10.7,
+        "total": 69.2,
+        "uricAcid": 79.8
+      }
+    ],
+    "id": 90
+  },
+  {
+    "name": "Gumbo (okura)",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.2,
+        "guanine": 21.3,
+        "hypoxanthine": 0.3,
+        "xanthine": 0.7,
+        "total": 39.5,
+        "uricAcid": 46.3
+      }
+    ],
+    "id": 91
+  },
+  {
+    "name": "Japanese ginger (myoga)",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 3.1,
+        "guanine": 3.5,
+        "hypoxanthine": 0.7,
+        "xanthine": 0.4,
+        "total": 7.8,
+        "uricAcid": 9.2
+      }
+    ],
+    "id": 92
+  },
+  {
+    "name": "Japanese leek (negi)",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 12,
+        "guanine": 26.8,
+        "hypoxanthine": 2.6,
+        "xanthine": 0,
+        "total": 41.4,
+        "uricAcid": 48
+      }
+    ],
+    "id": 93
+  },
+  {
+    "name": "Japanese pumpkin",
+    "type": "Vegetables",
+    "icon": "🎃",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 23.2,
+        "guanine": 29.1,
+        "hypoxanthine": 1.9,
+        "xanthine": 2.5,
+        "total": 56.6,
+        "uricAcid": 66.3
+      }
+    ],
+    "id": 94
+  },
+  {
+    "name": "Komatsuna Leaf",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 4.2,
+        "guanine": 6.3,
+        "hypoxanthine": 0,
+        "xanthine": 0,
+        "total": 10.6,
+        "uricAcid": 12.3
+      }
+    ],
+    "id": 95
+  },
+  {
+    "name": "Komatsuna Young leaf",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13,
+        "guanine": 24.7,
+        "hypoxanthine": 0,
+        "xanthine": 1.4,
+        "total": 39,
+        "uricAcid": 45.1
+      }
+    ],
+    "id": 96
+  },
+  {
+    "name": "Onion",
+    "type": "Vegetables",
+    "icon": "🧅",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 1,
+        "guanine": 1.1,
+        "hypoxanthine": 0.1,
+        "xanthine": 0,
+        "total": 2.3,
+        "uricAcid": 2.7
+      }
+    ],
+    "id": 97
+  },
+  {
+    "name": "Parsley",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 121.5,
+        "guanine": 135.1,
+        "hypoxanthine": 32.3,
+        "xanthine": 0,
+        "total": 288.9,
+        "uricAcid": 341.3
+      }
+    ],
+    "id": 98
+  },
+  {
+    "name": "Perilla leaves (shiso)",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 19.1,
+        "guanine": 19.1,
+        "hypoxanthine": 3.1,
+        "xanthine": 0.2,
+        "total": 41.4,
+        "uricAcid": 49
+      }
+    ],
+    "id": 99
+  },
+  {
+    "name": "Potato",
+    "type": "Vegetables",
+    "icon": "🥔",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 2.1,
+        "guanine": 4.2,
+        "hypoxanthine": 0.2,
+        "xanthine": 0,
+        "total": 6.5,
+        "uricAcid": 7.5
+      }
+    ],
+    "id": 100
+  },
+  {
+    "name": "Spinach Leaf",
+    "type": "Vegetables",
+    "icon": "🥬",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 29.8,
+        "guanine": 13.8,
+        "hypoxanthine": 0,
+        "xanthine": 7.7,
+        "total": 51.4,
+        "uricAcid": 61
+      }
+    ],
+    "id": 101
+  },
+  {
+    "name": "Spinach Young leaf",
+    "type": "Vegetables",
+    "icon": "🥬",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 83.5,
+        "guanine": 88.3,
+        "hypoxanthine": 0,
+        "xanthine": 0,
+        "total": 171.8,
+        "uricAcid": 202.1
+      }
+    ],
+    "id": 102
+  },
+  {
+    "name": "Sprouts (with bean)",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 28.1,
+        "guanine": 28.2,
+        "hypoxanthine": 0,
+        "xanthine": 1.1,
+        "total": 57.3,
+        "uricAcid": 67.4
+      }
+    ],
+    "id": 103
+  },
+  {
+    "name": "Sweet potato",
+    "type": "Vegetables",
+    "icon": "🍠",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 6.7,
+        "guanine": 7.3,
+        "hypoxanthine": 2.4,
+        "xanthine": 0.6,
+        "total": 17,
+        "uricAcid": 20.1
+      }
+    ],
+    "id": 104
+  },
+  {
+    "name": "White radish sprouts",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 33.9,
+        "guanine": 29.4,
+        "hypoxanthine": 6.4,
+        "xanthine": 3.5,
+        "total": 73.2,
+        "uricAcid": 86.6
+      }
+    ],
+    "id": 105
+  },
+  {
+    "name": "Zucchini",
+    "type": "Vegetables",
+    "icon": "🥗",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 5,
+        "guanine": 6.3,
+        "hypoxanthine": 1,
+        "xanthine": 0.8,
+        "total": 13.1,
+        "uricAcid": 15.3
+      }
+    ],
+    "id": 106
   }
 ]
