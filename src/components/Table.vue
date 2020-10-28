@@ -36,9 +36,15 @@
                 group-by="type"
                 class="elevation-1"
             >
+                <template v-slot:item.name="{ item }">
+                    <b>{{ item.name }}</b>
+                </template>
+                <template v-slot:item.total="{ item }">
+                    <b>{{ item.total }}</b>
+                </template>
                 <template v-slot:item.uricAcid="{ item }">
                     <v-chip :color="getColor(item.uricAcid)" dark>
-                        {{ item.uricAcid }}
+                        <b>{{ item.uricAcid }}</b>
                     </v-chip>
                 </template>
                 <template v-slot:item.icon="{ item }">
