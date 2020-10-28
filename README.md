@@ -1,6 +1,6 @@
 # Gout Diet Table
 
-People with gout or hyperuricemia should control the level of uric acid in the food to prevent gout attacks and other complications. Even for people without gout and hyperuricemia, the daily recommended limit is 400 mg of purines. The aim of the project is to provide people convenient way to control their diet.
+People with gout and hyperuricemia should control the level of purines in the food to prevent gout attacks and other complications. Even for people without gout and hyperuricemia, the daily recommended limit is 400 mg of purines. The aim of the project is to provide people convenient way to control their diet.
 
 https://gout-table.com
 
