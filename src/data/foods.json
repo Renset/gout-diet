@@ -936,7 +936,7 @@
         "srcId": 1,
         "adenine": 27,
         "guanine": 30.2,
-        "hypoxanthine": "ND",
+        "hypoxanthine": null,
         "xanthine": 0,
         "total": 57.2,
         "uricAcid": 67.2
@@ -1368,5 +1368,617 @@
       }
     ],
     "id": 106
+  },
+  {
+    "name": "Arabesque greenling",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 18.9,
+        "guanine": 34,
+        "hypoxanthine": 94.7,
+        "xanthine": 2.4,
+        "total": 150,
+        "uricAcid": 181
+      }
+    ],
+    "id": 107
+  },
+  {
+    "name": "Ayu",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.6,
+        "guanine": 25.7,
+        "hypoxanthine": 89.8,
+        "xanthine": 0,
+        "total": 133.1,
+        "uricAcid": 161.4
+      }
+    ],
+    "id": 108
+  },
+  {
+    "name": "Barracuda",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 24.2,
+        "hypoxanthine": 110.2,
+        "xanthine": null,
+        "total": 147.9,
+        "uricAcid": 179.9
+      }
+    ],
+    "id": 109
+  },
+  {
+    "name": "Bastard halibut",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.6,
+        "guanine": 15.1,
+        "hypoxanthine": 100.7,
+        "xanthine": 0,
+        "total": 133.4,
+        "uricAcid": 163.1
+      }
+    ],
+    "id": 110
+  },
+  {
+    "name": "Bonito",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 21.6,
+        "guanine": 19.6,
+        "hypoxanthine": 170.1,
+        "xanthine": 0,
+        "total": 211.4,
+        "uricAcid": 258.9
+      }
+    ],
+    "id": 111
+  },
+  {
+    "name": "Carp",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 16.2,
+        "guanine": 12.1,
+        "hypoxanthine": 74.9,
+        "xanthine": null,
+        "total": 103.2,
+        "uricAcid": 126.1
+      }
+    ],
+    "id": 112
+  },
+  {
+    "name": "Chub mackerel",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 10.6,
+        "hypoxanthine": 98,
+        "xanthine": 0,
+        "total": 122.1,
+        "uricAcid": 149.6
+      }
+    ],
+    "id": 113
+  },
+  {
+    "name": "Fat greenling",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 20.3,
+        "guanine": 13.6,
+        "hypoxanthine": 95.3,
+        "xanthine": null,
+        "total": 129.1,
+        "uricAcid": 158
+      }
+    ],
+    "id": 114
+  },
+  {
+    "name": "Flying fish",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 22.7,
+        "hypoxanthine": 118.4,
+        "xanthine": 0,
+        "total": 154.6,
+        "uricAcid": 188.3
+      }
+    ],
+    "id": 115
+  },
+  {
+    "name": "Gnomefish - Meat",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 14.6,
+        "guanine": 15.3,
+        "hypoxanthine": 120.1,
+        "xanthine": 0.8,
+        "total": 150.8,
+        "uricAcid": 184.4
+      }
+    ],
+    "id": 116
+  },
+  {
+    "name": "Gnomefish - Skin",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 9.6,
+        "guanine": 296.7,
+        "hypoxanthine": 73.5,
+        "xanthine": 2.5,
+        "total": 382.3,
+        "uricAcid": 435.5
+      }
+    ],
+    "id": 117
+  },
+  {
+    "name": "Herring",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 22.7,
+        "hypoxanthine": 103.4,
+        "xanthine": null,
+        "total": 139.6,
+        "uricAcid": 169.8
+      }
+    ],
+    "id": 118
+  },
+  {
+    "name": "Jack mackerel",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.6,
+        "guanine": 48.4,
+        "hypoxanthine": 99.4,
+        "xanthine": 0,
+        "total": 165.3,
+        "uricAcid": 198.4
+      }
+    ],
+    "id": 119
+  },
+  {
+    "name": "Japanese amberjack",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 18.9,
+        "guanine": 12.1,
+        "hypoxanthine": 89.8,
+        "xanthine": 0,
+        "total": 120.8,
+        "uricAcid": 147.9
+      }
+    ],
+    "id": 120
+  },
+  {
+    "name": "Japanese eel",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 24.2,
+        "hypoxanthine": 54.4,
+        "xanthine": null,
+        "total": 92.1,
+        "uricAcid": 110.9
+      }
+    ],
+    "id": 121
+  },
+  {
+    "name": "Japanese seabass",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 12.1,
+        "hypoxanthine": 93.9,
+        "xanthine": 0,
+        "total": 119.5,
+        "uricAcid": 146.2
+      }
+    ],
+    "id": 122
+  },
+  {
+    "name": "Mebaru",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 18.1,
+        "hypoxanthine": 92.5,
+        "xanthine": 0,
+        "total": 124.2,
+        "uricAcid": 151.3
+      }
+    ],
+    "id": 123
+  },
+  {
+    "name": "Monkfish - Meat",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.5,
+        "guanine": 19.5,
+        "hypoxanthine": 32.6,
+        "xanthine": 0.5,
+        "total": 70,
+        "uricAcid": 84.2
+      }
+    ],
+    "id": 124
+  },
+  {
+    "name": "Monkfish - Liver (raw)",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 38.2,
+        "guanine": 55.6,
+        "hypoxanthine": 6,
+        "xanthine": 4.4,
+        "total": 104.3,
+        "uricAcid": 121.8
+      }
+    ],
+    "id": 125
+  },
+  {
+    "name": "Monkfish - Liver (steamed)",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 158.2,
+        "guanine": 211.4,
+        "hypoxanthine": 26.6,
+        "xanthine": 3.1,
+        "total": 399.2,
+        "uricAcid": 468.2
+      }
+    ],
+    "id": 126
+  },
+  {
+    "name": "Pacific saury",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 14.9,
+        "guanine": 52.9,
+        "hypoxanthine": 87.1,
+        "xanthine": 0,
+        "total": 154.9,
+        "uricAcid": 184.9
+      }
+    ],
+    "id": 127
+  },
+  {
+    "name": "Rainbow trout",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 25.7,
+        "guanine": 55.9,
+        "hypoxanthine": 99.4,
+        "xanthine": null,
+        "total": 180.9,
+        "uricAcid": 216.8
+      }
+    ],
+    "id": 128
+  },
+  {
+    "name": "Red seabream",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 10.6,
+        "hypoxanthine": 104.8,
+        "xanthine": 0,
+        "total": 128.9,
+        "uricAcid": 158
+      }
+    ],
+    "id": 129
+  },
+  {
+    "name": "Sablefish - Meat",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 27.4,
+        "guanine": 11.9,
+        "hypoxanthine": 83.9,
+        "xanthine": 0.2,
+        "total": 123.3,
+        "uricAcid": 151.1
+      }
+    ],
+    "id": 130
+  },
+  {
+    "name": "Sablefish - Skin",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 12.1,
+        "guanine": 14,
+        "hypoxanthine": 39.2,
+        "xanthine": 1.6,
+        "total": 66.9,
+        "uricAcid": 80.8
+      }
+    ],
+    "id": 131
+  },
+  {
+    "name": "Sailfin sandfish",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 16.2,
+        "guanine": 30.2,
+        "hypoxanthine": 49,
+        "xanthine": 3,
+        "total": 98.5,
+        "uricAcid": 117.7
+      }
+    ],
+    "id": 132
+  },
+  {
+    "name": "Salmon",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.6,
+        "guanine": 10.6,
+        "hypoxanthine": 91.2,
+        "xanthine": 0,
+        "total": 119.3,
+        "uricAcid": 146.2
+      }
+    ],
+    "id": 133
+  },
+  {
+    "name": "Sardine",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.6,
+        "guanine": 105.8,
+        "hypoxanthine": 87.1,
+        "xanthine": null,
+        "total": 210.4,
+        "uricAcid": 247.1
+      }
+    ],
+    "id": 134
+  },
+  {
+    "name": "Sillaginidae",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 10.6,
+        "hypoxanthine": 119.8,
+        "xanthine": null,
+        "total": 143.9,
+        "uricAcid": 176.5
+      }
+    ],
+    "id": 135
+  },
+  {
+    "name": "Spanish mackerel",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 12.2,
+        "guanine": 6,
+        "hypoxanthine": 121.1,
+        "xanthine": null,
+        "total": 139.3,
+        "uricAcid": 171.5
+      }
+    ],
+    "id": 136
+  },
+  {
+    "name": "Striped pigfish",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 10.6,
+        "hypoxanthine": 125.2,
+        "xanthine": null,
+        "total": 149.3,
+        "uricAcid": 183.2
+      }
+    ],
+    "id": 137
+  },
+  {
+    "name": "Tilefish",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 9.5,
+        "guanine": 10.6,
+        "hypoxanthine": 99.4,
+        "xanthine": 0,
+        "total": 119.4,
+        "uricAcid": 146.2
+      }
+    ],
+    "id": 138
+  },
+  {
+    "name": "Tuna",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 17.6,
+        "guanine": 10.6,
+        "hypoxanthine": 129.3,
+        "xanthine": 0,
+        "total": 157.4,
+        "uricAcid": 193.3
+      }
+    ],
+    "id": 139
+  },
+  {
+    "name": "Wakasagi smelt",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 13.5,
+        "guanine": 24.2,
+        "hypoxanthine": 57.2,
+        "xanthine": 0,
+        "total": 94.8,
+        "uricAcid": 114.3
+      }
+    ],
+    "id": 140
+  },
+  {
+    "name": "Weather loach",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 28.4,
+        "guanine": 49.9,
+        "hypoxanthine": 51.7,
+        "xanthine": 6.1,
+        "total": 136,
+        "uricAcid": 161.4
+      }
+    ],
+    "id": 141
+  },
+  {
+    "name": "Yellow striped flounder",
+    "icon": "🐟",
+    "type": "Fresh fish",
+    "purines": [
+      {
+        "srcId": 1,
+        "adenine": 14.9,
+        "guanine": 28.7,
+        "hypoxanthine": 69.4,
+        "xanthine": 0,
+        "total": 113,
+        "uricAcid": 136.2
+      }
+    ],
+    "id": 142
   }
 ]
