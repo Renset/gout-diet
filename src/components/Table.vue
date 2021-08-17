@@ -12,25 +12,28 @@
             </v-card-title>
             <v-card-text class="m-t">
                 Uric acid levels (mg/100g):
-                <v-chip class="ma-1" :color="getColor(0)" dark small>
+                <v-chip @click="setFilter('very_low')" class="ma-1" :color="getColor(0, 'very_low')" dark small>
                     Very low: 0&mdash;50
                 </v-chip>
-                <v-chip class="ma-1" :color="getColor(51)" dark small>
+                <v-chip @click="setFilter('low')" class="ma-1" :color="getColor(51, 'low')" dark small>
                     Low: 50&mdash;100
                 </v-chip>
-                <v-chip class="ma-1" :color="getColor(101)" dark small>
+                <v-chip @click="setFilter('moderate')" class="ma-1" :color="getColor(101, 'moderate')" dark small>
                     Moderate: 100&mdash;200
                 </v-chip>
-                <v-chip class="ma-1" :color="getColor(201)" dark small>
+                <v-chip @click="setFilter('high')" class="ma-1" :color="getColor(201, 'high')" dark small>
                     High: 200&mdash;300
                 </v-chip>
-                <v-chip class="ma-1" :color="getColor(301)" dark small>
+                <v-chip @click="setFilter('very_high')" class="ma-1" :color="getColor(301, 'very_high')" dark small>
                     Very High: 300+
+                </v-chip>
+                <v-chip v-if="filter" @click="setFilter(null)" class="ml-2 ma-1" small outlined close>
+                    <b>Reset Filter</b>
                 </v-chip>
             </v-card-text>
             <v-data-table
                 :headers="headers"
-                :items="foodsPrepared"
+                :items="filteredItems"
                 :items-per-page="200"
                 :search="search"
                 group-by="type"
@@ -57,6 +60,7 @@
 
 <script>
 import Foods from "../data/foods.json";
+import chroma from 'chroma-js'
 
 export default {
     name: "Table",
@@ -65,6 +69,7 @@ export default {
             foods: Foods,
             foodsPrepared: [],
             search: "",
+            filter: null,
             headers: [
                 {
                     text: "Icon",
@@ -93,6 +98,13 @@ export default {
         this.prepareData();
     },
     methods: {
+        setFilter: function(val) {
+            if (this.filter === val) {
+                this.filter = null
+            } else {
+                this.filter = val
+            }
+        },
         prepareData: function () {
             this.foods.forEach((food) => {
                 let foodPrepared = {};
@@ -108,13 +120,45 @@ export default {
                 this.foodsPrepared.push(foodPrepared);
             });
         },
-        getColor(uricAcid) {
-            if (uricAcid > 300) return "black";
-            else if (uricAcid > 200) return "#760000";
-            else if (uricAcid > 100) return "red";
-            else if (uricAcid > 50) return "orange";
-            else return "green";
+        getColor(uricAcid, filterVal) {
+            let color = ""
+
+            if (uricAcid > 300) color = "black";
+            else if (uricAcid > 200) color = "#760000";
+            else if (uricAcid > 100) color = "red";
+            else if (uricAcid > 50) color = "orange";
+            else color = "green";
+
+            if (filterVal && this.filter && this.filter !== filterVal) {
+                return chroma(color).alpha(0.2).hex()
+            }
+
+            return color
         },
     },
+    computed: {
+        filteredItems: function() {
+            if (!this.filter) {
+                return this.foodsPrepared
+            }
+
+            return this.foodsPrepared.filter(item => {
+                
+                if (this.filter === 'very_low') {
+                    return item.uricAcid < 50 
+                } else if (this.filter === 'low') {
+                    return item.uricAcid >= 50 && item.uricAcid < 100
+                } else if (this.filter === 'moderate') {
+                    return item.uricAcid >= 100 && item.uricAcid < 200
+                } else if (this.filter === 'high') {
+                    return item.uricAcid >= 200 && item.uricAcid < 300
+                } else if (this.filter === 'very_high') {
+                    return item.uricAcid >= 300
+                }
+
+                return false
+            })
+        }
+    }
 };
 </script>
