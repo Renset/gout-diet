@@ -27,9 +27,6 @@
                 <v-chip @click="setFilter('very_high')" class="ma-1" :color="getColor(301, 'very_high')" dark small>
                     Very High: 300+
                 </v-chip>
-                <v-chip v-if="filter" @click="setFilter(null)" class="ml-2 ma-1" small outlined close>
-                    <b>Reset Filter</b>
-                </v-chip>
             </v-card-text>
             <v-data-table
                 :headers="headers"
