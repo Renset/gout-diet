@@ -5,27 +5,27 @@
                 <v-text-field
                     v-model="search"
                     append-icon="mdi-magnify"
-                    label="Search"
+                    :label="$t('ui.label_search')"
                     single-line
                     hide-details
                 ></v-text-field>
             </v-card-title>
             <v-card-text class="m-t">
-                Uric acid levels (mg/100g):
+                {{$t('ui.filters.label_uric_acid_levels')}}
                 <v-chip @click="setFilter('very_low')" class="ma-1" :color="getColor(0, 'very_low')" dark small>
-                    Very low: 0&mdash;50
+                    {{$t('ui.filters.level_very_low')}} 0&mdash;50
                 </v-chip>
                 <v-chip @click="setFilter('low')" class="ma-1" :color="getColor(51, 'low')" dark small>
-                    Low: 50&mdash;100
+                    {{$t('ui.filters.level_low')}} 50&mdash;100
                 </v-chip>
                 <v-chip @click="setFilter('moderate')" class="ma-1" :color="getColor(101, 'moderate')" dark small>
-                    Moderate: 100&mdash;200
+                    {{$t('ui.filters.level_moderate')}} 100&mdash;200
                 </v-chip>
                 <v-chip @click="setFilter('high')" class="ma-1" :color="getColor(201, 'high')" dark small>
-                    High: 200&mdash;300
+                    {{$t('ui.filters.level_high')}}  200&mdash;300
                 </v-chip>
                 <v-chip @click="setFilter('very_high')" class="ma-1" :color="getColor(301, 'very_high')" dark small>
-                    Very High: 300+
+                     {{$t('ui.filters.level_very_high')}}  300+
                 </v-chip>
             </v-card-text>
             <v-data-table
