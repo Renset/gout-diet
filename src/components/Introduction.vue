@@ -1,6 +1,5 @@
 <template>
-    <v-container>
-        {{$t('ui.intro')}}
+    <v-container v-html="$t('ui.intro')">
     </v-container>
 </template>
 

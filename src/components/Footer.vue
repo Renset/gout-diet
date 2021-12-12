@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-container>
-            <p>Data sources:</p>
+            <p id="data_sources">Data sources:</p>
             <ol>
                 <li v-for="source in sources" :key="source.id">
                     "{{ source.name }}" by <i>{{ source.author }}</i>
