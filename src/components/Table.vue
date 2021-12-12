@@ -37,7 +37,7 @@
                 class="elevation-1"
             >
                 <template v-slot:item.name="{ item }">
-                    <b>{{ item.name }}</b>
+                    <b>{{ $te('food.'+item.name) ? $t('food.'+item.name) : item.name }}</b>
                 </template>
                 <template v-slot:item.total="{ item }">
                     <b>{{ item.total }}</b>
@@ -66,29 +66,7 @@ export default {
             foods: Foods,
             foodsPrepared: [],
             search: "",
-            filter: null,
-            headers: [
-                {
-                    text: "Icon",
-                    value: "icon",
-                    sortable: false,
-                },
-                {
-                    text: "Food",
-                    align: "start",
-                    value: "name",
-                },
-                {
-                    text: "Type",
-                    value: "type",
-                },
-                { text: "Adenine", value: "adenine" },
-                { text: "Guanine", value: "guanine" },
-                { text: "Hypoxanthine", value: "hypoxanthine" },
-                { text: "Xanthine", value: "xanthine" },
-                { text: "Total Purines", value: "total" },
-                { text: "Uric Acid", value: "uricAcid" },
-            ],
+            filter: null
         };
     },
     created() {
@@ -134,6 +112,30 @@ export default {
         },
     },
     computed: {
+        headers: function() {
+            return [
+                {
+                    text: this.$t("ui.table.icon"),
+                    value: "icon",
+                    sortable: false,
+                },
+                {
+                    text: this.$t("ui.table.food"),
+                    align: "start",
+                    value: "name",
+                },
+                {
+                    text: this.$t("ui.table.type"),
+                    value: "type",
+                },
+                { text: this.$t("ui.table.adenine"), value: "adenine" },
+                { text: this.$t("ui.table.guanine"), value: "guanine" },
+                { text: this.$t("ui.table.hypoxanthine"), value: "hypoxanthine" },
+                { text: this.$t("ui.table.xanthine"), value: "xanthine" },
+                { text: this.$t("ui.table.total"), value: "total" },
+                { text: this.$t("ui.table.uric_acid"), value: "uricAcid" },
+            ]
+        },
         filteredItems: function() {
             if (!this.filter) {
                 return this.foodsPrepared

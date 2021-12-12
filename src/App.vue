@@ -2,7 +2,7 @@
     <v-app>
         <v-app-bar app dark color="green" dense elevation="0">
     
-            <v-toolbar-title>Low Purines diet table</v-toolbar-title>
+            <v-toolbar-title>{{$t('ui.title')}}</v-toolbar-title>
 
             <v-spacer></v-spacer>
 
